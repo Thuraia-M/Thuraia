@@ -1,0 +1,128 @@
+<!-- Doctype HTML -->
+<html>
+	<header>
+		<meta charset="utf-8">
+		<title>Markup Language </title>
+		<link rel="stylesheet" href="main.css"  type="text/css" />
+		<link rel="stylesheet" href="sub_file.css"  type="text/css" />
+        <script type="text/javascript" src="script.js"></script></script>
+
+       
+	</header>
+<body onload=alertSomethingOrPopUp()>
+   
+     <Div id="clock"></div>  
+
+<!-- Social Media Section-->
+     <Div  id="social" >
+        <a href="https://www.facebook.com/HTMLbooks" target="_blank"><img src="images\facebook.png" height="25px" /></a>
+        <a href="https://t.me/joinchat/AAAAAFAMeI-HvHX2qPlNoA" target="_blank"><img src="images\telgram.jpg" height="25px" /></a>
+        <a href="https://www.linkedin.com/feed/" target="_blank"><img src="images\linkedin.png" height="25px"/></a>
+    </Div>
+<!-- Main banner Images -->
+     <Div style="width: 90%; height:40%; background-color: white;">    
+    	       <table class="table">
+                         <tr>						
+                              <td > <img src="images\banner-img.jpg" style="height:220px;width:80%";/> </td>
+                              <td > <img src="images\markup.png" style="height:50px", /> </td> 
+                         </tr>
+               </table>
+    </div>
+    <div style="background-color:white; width: 90%;  margin-bottom: 0;"><br/>
+ <!-- The First Horizantal line -->
+                              <hr/>
+                              <h1 id="top" class="h" style="text-align: center;">The Markup Language</h1>
+ <!-- This is first paragraph , it is for markup language definition -->
+                              <p class="paragraph">
+                                    A markup language is a computer language for clarifying the contents of a document.
+                                    It was designed for the processing, definition and presentation of text. The language 
+                                    specifies code for formatting, both the layout and style, within a text file. The code used to specify the
+                                    formatting are called tags.HTMLis a an example of a widely known and used markup language.
+                              </p>
+                              <h4><p class="paragraph">While several markup languages exist, the Four most popular are XML,DHTML,XHTML and HTML.</p></h4><br/>
+<!-- This section for linkes pages that explain the  common kind of markup language  -->
+                                
+                               <table  style="width:90%;height:100px;margin-left:5%;margin-right:5%;  font-size:16px ; ">
+                                    <tr>
+                                        <td style="padding-left:6%;padding-right:4%;"><img src="images\xml.png" width="80px" /></td>
+                                        <td style="padding-left:6%;padding-right:4%;"><img src="images\dhtml.png" width="80px" /></td>
+                                        <td style="padding-left:6%;padding-right:4%;"><img src="images\xhtml.png" width="80px" /></td>
+                                        <td style="padding-left:6%;padding-right:4%;"><img src="images\html.png" width="80px" /></td>
+                                    </tr>
+                                    <tr style ="background-color:#f5fded;">
+                                        <td>It is a very flexible 
+                                            text format derived from SGML,
+                                            Originally designed to meet the challenges of large-scale electronic publishing<br/>
+                                            <a href="https://www.w3.org/XML/#intro" target="_blank"> <strong>Read More >></strong>  </a>
+                                        </td>
+                                        <td>It is a combination of Web development technologies
+                                            used to create dynamically changing websites.<br/>
+                                            <a href="https://en.wikipedia.org/wiki/Dynamic_HTML" target="_blank"><strong>Read More >></strong></a>
+                                            </td>
+                                            <td>It is a way of making XML documents that look and act like HTML documents<br/>
+                                             <a href="https://www.tutorialspoint.com/xhtml/index.htm" target="_blank"><strong>Read More >></strong></a>
+                                            </td>
+                                            <td>it is the standard markup languageused for creating webpages and 
+                                               displaying documents in a web browser.<br/>
+                                               <a href="https://www.w3schools.com/html/default.asp" target="_blank"><strong>Read More >></strong></a>
+                                              </td>
+                                     </tr>
+                             </table><br/><br/><br/>
+ <!-- This section for unlisted list for markup language kinds -->
+                                <h2 class="h">Related Terms</h2>
+                                <ul >
+                                    <li>XHTML	: Extensible Hypertext Markup Language</li>
+                                    <li>SGML	:Standard Generalized Markup Language</li>
+                                    <li>XML	    :Extensible Markup Language</li>
+                                    <li>VXML	:Voice Extensible Markup Language</li>
+                                    <li>UIML	:User Interface Markup Language</li>
+                                    <li>VXML	:Voice Extensible Markup Language</li>
+                                    <li>HTML	:Hypertext Markup Language</li>
+                                    <li>DHTML	:Dynamic HyerText Markup Language</li>
+                                </ul>                          
+                               <br/><br/>                             
+                    
+                                                   
+    </div>
+                          
+  
+                
+<!-- Footer Section -->
+
+    <div style="width:90%; height: 10%;background-color:white ; margin-top: 0px;">   
+     
+        <table class="table">
+            <tr><td colspan="4">    <hr/></td> </tr>  
+           
+            <tr>                   
+                <td><a href="mailto:t.maddur@cctt.edu.ly"> <img src="images\contact.png" height="30px" /> </a></td>
+                <td style="text-align:center;"> <h4>©  Copyright 2021. All Rights Reserved.</h4></td>
+                 <td><a href="#top"><b><img src="images\top.jpg" height="30px" /></b> </a></td> 
+                
+                 <td id="CounterVisitor">
+                    <script >
+                        var n = localStorage.getItem('on_load_counter');
+           
+                       if (n === null) 
+                       {
+                       n = 0;
+                       }
+                       n++;
+           
+                       localStorage.setItem("on_load_counter", n);
+           
+                       nums = n.toString().split('').map(Number);
+                       document.getElementById('CounterVisitor').innerHTML = 'Visitors: ';
+                       for (var i of nums)
+                       {
+                       document.getElementById('CounterVisitor').innerHTML += '<span class="counter-item">' + i + '</span>';
+                       }           
+                    </script>
+                </td>
+            </tr>
+         </table>
+    </div>
+    
+</body>
+
+</html>
